@@ -21,11 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
-1. Run your specs with the formatter set:
+Run your specs with the formatter set:
 
     $ bundle exec rspec --format TimedFormatter::Formatter
 
-2. Profit
+Or add it to your `.rspec` file:
+
+    --format TimedFormatter::Formatter
 
 ## Contributing
 
