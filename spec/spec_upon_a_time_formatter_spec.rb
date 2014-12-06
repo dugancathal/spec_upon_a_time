@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-require 'timed_formatter/formatter'
+require 'spec_upon_a_time/formatter'
 
-module TimedFormatter
+module SpecUponATime
   describe Formatter do
     def example_notification(example)
       ::RSpec::Core::Notifications::ExampleNotification.for(example)

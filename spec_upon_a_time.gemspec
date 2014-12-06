@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'timed_formatter/version'
+require 'spec_upon_a_time/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "timed_formatter"
-  spec.version       = TimedFormatter::VERSION
+  spec.name          = "spec_upon_a_time"
+  spec.version       = SpecUponATime::VERSION
   spec.authors       = ["TJ Taylor"]
   spec.email         = ["dugancathal@gmail.com"]
   spec.summary       = %q{An RSpec3 Formatter that prints the runtime for each spec}
